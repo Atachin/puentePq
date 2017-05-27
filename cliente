@@ -1,0 +1,13 @@
+package puente;
+
+public class Cliente {
+    public static void main(String[] args){
+         ElaborarSeparador discapacitados = new 
+            ElaborarSeparadorDiscapacitados( new PintarGuiasAzules() );
+         discapacitados.obtener();
+        
+        ElaborarSeparador normal = new 
+            ElaborarSeparadorNormal( new PintarGuiasNegras() );
+        normal.obtener();
+    }
+}
